@@ -92,7 +92,7 @@ const songs = [
         title: "Tujhe Kitna Chahne Lage",
         artist: "MUSICA",
         file: "song/Tujhe Kitna Chahne Lage.mp3"
-    } 
+    },
     
     {   
         title: "Until I Found You",
