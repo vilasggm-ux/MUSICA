@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MUSICA — Lost and Found Feelings</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <meta name="theme-color" content="#8d5bb5">
+
+</head>
+
+
+<body>
+
+    <!-- ================= LANDING PAGE ================= -->
+
+    <section id="landing" class="landing">
+
+        <div class="landing-content">
+
+            <div class="logo-small">♫</div>
+
+            <h1>MUSICA</h1>
+
+            <p>lost and found feelings</p>
+
+            <button id="enterBtn">
+                ENTER MUSICA
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= HOME ================= -->
+
+    <section id="home" class="home">
+
+        <nav class="navbar">
+
+            <div class="brand">
+
+                <h2>MUSICA</h2>
+
+                <span>lost and found feelings</span>
+
+            </div>
+
+            <div class="nav-icon">
+                ♫
+            </div>
+
+        </nav>
+
+
+
+        <div class="hero">
+
+            <p class="eyebrow">
+                YOUR MUSIC SPACE
+            </p>
+
+            <h1>
+                Music for every<br>
+                <span>version of you.</span>
+            </h1>
+
+            <p class="hero-text">
+                Sometimes you don't need answers.<br>
+                You just need the right song.
+            </p>
+
+            <button id="startListening" class="primary-btn">
+                🎧 LISTEN NOW
+            </button>
+
+        </div>
+
+
+
+        <!-- ================= MUSIC LIBRARY ================= -->
+
+        <div id="musicLibrary" class="music-library">
+
+            <div class="library-header">
+
+                <div>
+
+                    <p class="eyebrow">
+                        MUSICA LIBRARY
+                    </p>
+
+                    <h2>All your feelings.<br>One place.</h2>
+
+                </div>
+
+
+                <div class="song-count">
+
+                    <span id="songCount">0</span>
+
+                    <small>songs</small>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- SEARCH -->
+
+            <div class="search-box">
+
+                <span>⌕</span>
+
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Search songs..."
+                    autocomplete="off"
+                >
+
+            </div>
+
+
+
+            <!-- SONGS -->
+
+            <div id="songList" class="song-grid">
+
+                <!-- JavaScript creates songs here -->
+
+            </div>
+
+
+            <p id="noResults" class="no-results">
+                No songs found.
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= MUSIC PLAYER ================= -->
+
+    <div id="musicPlayer" class="music-player">
+
+        <div class="now-playing">
+
+            <div class="player-cover">
+                ♫
+            </div>
+
+            <div class="player-info">
+
+                <strong id="playerTitle">
+                    Select a song
+                </strong>
+
+                <small id="playerArtist">
+                    MUSICA
+                </small>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="player-main">
+
+            <div class="player-buttons">
+
+                <button id="previousBtn">
+                    ⏮
+                </button>
+
+                <button id="playBtn" class="play-button">
+                    ▶
+                </button>
+
+                <button id="nextBtn">
+                    ⏭
+                </button>
+
+            </div>
+
+
+
+            <div class="progress-container">
+
+                <span id="currentTime">
+                    0:00
+                </span>
+
+                <input
+                    type="range"
+                    id="progressBar"
+                    min="0"
+                    max="100"
+                    value="0"
+                >
+
+                <span id="duration">
+                    0:00
+                </span>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="volume">
+
+            <span>🔊</span>
+
+            <input
+                type="range"
+                id="volumeBar"
+                min="0"
+                max="1"
+                step="0.01"
+                value="1"
+            >
+
+        </div>
+
+    </div>
+
+
+
+    <!-- AUDIO -->
+
+    <audio
+        id="audioPlayer"
+        preload="metadata">
+    </audio>
+
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
