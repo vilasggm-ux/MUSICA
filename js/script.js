@@ -40,7 +40,6 @@ const playerArtist = document.getElementById("playerArtist");
 
 const songs = [
 
-```
 {
     title: "Aadat",
     artist: "MUSICA",
