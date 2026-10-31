@@ -40,67 +40,170 @@ const playerArtist = document.getElementById("playerArtist");
 
 const songs = [
 
-    {
-        title: "Aadat",
-        artist: "MUSICA",
-        file: "song/Aadat.mp3"
-    },
+```
+{
+    title: "Aadat",
+    artist: "MUSICA",
+    file: "song/Aadat.mp3"
+},
 
-    {
-        title: "Aarzu",
-        artist: "MUSICA",
-        file: "song/Aarzu.mp3"
-    },
+{
+    title: "Aarzu",
+    artist: "MUSICA",
+    file: "song/Aarzu.mp3"
+},
 
-    {
-        title: "Ae Dil Hai Mushkil",
-        artist: "MUSICA",
-        file: "song/Ae Dil Hai Mushkil.mp3"
-    },
+{
+    title: "Ae Dil Hai Mushkil",
+    artist: "MUSICA",
+    file: "song/Ae Dil Hai Mushkil.mp3"
+},
 
-    {
-        title: "Agar Tum Saath Ho",
-        artist: "MUSICA",
-        file: "song/Agar Tum Saath Ho.mp3"
-    },
+{
+    title: "Agar Tum Saath Ho",
+    artist: "MUSICA",
+    file: "song/Agar Tum Saath Ho.mp3"
+},
 
-    {
-        title: "Bhula Dena",
-        artist: "MUSICA",
-        file: "song/Bhula Dena s.mp3"
-    },
+{
+    title: "Bhula Dena",
+    artist: "MUSICA",
+    file: "song/Bhula Dena s.mp3"
+},
 
-    {
-        title: "Pal",
-        artist: "MUSICA",
-        file: "song/Pal.mp3"
-    },
+{
+    title: "Pal",
+    artist: "MUSICA",
+    file: "song/Pal.mp3"
+},
 
-    {
-        title: "Shayad",
-        artist: "MUSICA",
-        file: "song/Shayad.mp3"
-    },
+{
+    title: "Shayad",
+    artist: "MUSICA",
+    file: "song/Shayad.mp3"
+},
 
-    {
-        title: "Test Song",
-        artist: "MUSICA",
-        file: "song/test-song.mp3"
-    },
+{
+    title: "Test Song",
+    artist: "MUSICA",
+    file: "song/test-song.mp3"
+},
 
-    {
-        title: "Tujhe Kitna Chahne Lage",
-        artist: "MUSICA",
-        file: "song/Tujhe Kitna Chahne Lage.mp3"
-    },
-    
-    {   
-        title: "Until I Found You",
-        artist: "MUSICA",
-        file: "song/Until I Found You.mp3"
-    }
+{
+    title: "Tujhe Kitna Chahne Lage",
+    artist: "MUSICA",
+    file: "song/Tujhe Kitna Chahne Lage.mp3"
+},
+
+{   
+    title: "Until I Found You",
+    artist: "MUSICA",
+    file: "song/Until I Found You.mp3"
+},
+
+{
+    title: "Maand",
+    artist: "MUSICA",
+    file: "song/Maand.mp3"
+},
+{
+    title: "Barsaat",
+    artist: "MUSICA",
+    file: "song/Barsaat.mp3"
+},
+{
+    title: "Pogiren",
+    artist: "MUSICA",
+    file: "song/Pogiren.mp3"
+},
+{
+    title: "Aarzu",
+    artist: "MUSICA",
+    file: "song/Aarzu.mp3"
+},
+{
+    title: "Ennodu Nee Irundhal",
+    artist: "MUSICA",
+    file: "song/Ennodu Nee Irundhal.mp3"
+},
+{
+    title: "Enna Sona",
+    artist: "MUSICA",
+    file: "song/Enna Sona.mp3"
+},
+{
+    title: "Kinna Sona",
+    artist: "MUSICA",
+    file: "song/Kinna Sona.mp3"
+},
+{
+    title: "Kaathalae Kaathalae",
+    artist: "MUSICA",
+    file: "song/Kaathalae Kaathalae.mp3"
+},
+{
+    title: "Unakkul Naane",
+    artist: "MUSICA",
+    file: "song/Unakkul Naane.mp3"
+},
+{
+    title: "Marudaani",
+    artist: "MUSICA",
+    file: "song/Marudaani.mp3"
+},
+{
+    title: "Nenjin Ezhuth",
+    artist: "MUSICA",
+    file: "song/Nenjin Ezhuth.mp3"
+},
+{
+    title: "Tu Hain Toh",
+    artist: "MUSICA",
+    file: "song/Tu Hain Toh.mp3"
+},
+{
+    title: "Othaiyadi Pathayila",
+    artist: "MUSICA",
+    file: "song/Othaiyadi Pathayila.mp3"
+},
+{
+    title: "Husn",
+    artist: "MUSICA",
+    file: "song/Husn.mp3"
+},
+{
+    title: "Ajab Si",
+    artist: "MUSICA",
+    file: "song/Ajab Si.mp3"
+},
+{
+    title: "Innum Konjam Neram",
+    artist: "MUSICA",
+    file: "song/Innum Konjam Neram.mp3"
+},
+{
+    title: "Lag Ja Gale",
+    artist: "MUSICA",
+    file: "song/Lag Ja Gale.mp3"
+},
+{
+    title: "Mere Sohneya",
+    artist: "MUSICA",
+    file: "song/Mere Sohneya.mp3"
+},
+{
+    title: "Zaalima",
+    artist: "MUSICA",
+    file: "song/Zaalima.mp3"
+},
+{
+    title: "Tum Se Hi",
+    artist: "MUSICA",
+    file: "song/Tum Se Hi.mp3"
+}
 
 ];
+
 
 
 let currentSong = 0;
